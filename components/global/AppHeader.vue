@@ -16,7 +16,7 @@
     <transition name="slide-fade">
       <ul
         :class="{ hidden: !isMenuOpen, flex: isMenuOpen }"
-        class="flex-col md:flex md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 absolute md:static top-16 left-0 w-full md:w-auto bg-bg-color md:bg-transparent"
+        class="flex-col md:flex md:flex-row items-center justify-center border-b border-b-[#0c1120] pb-6 md:pb-0 md:border-none space-y-4 md:space-y-0 md:space-x-8 absolute md:static top-16 left-0 w-full md:w-auto bg-bg-color md:bg-transparent"
       >
         <li class="text-color-white font-semibold cursor-pointer">HOME</li>
         <li class="text-color-white font-semibold cursor-pointer">ABOUT</li>
