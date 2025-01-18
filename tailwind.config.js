@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       colors: {
         "bg-color": "#080C17",
+        "btn-color": "#EED1AC",
+        "color-black": "#16191E",
+        "color-white": "#F4F4F4",
         secondary: {
           100: "#E2E2D5",
           200: "#888883",

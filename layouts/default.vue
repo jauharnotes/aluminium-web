@@ -1,6 +1,6 @@
 <template>
   <main class="flex-1 bg-bg-color">
-    <div class="container mx-auto">
+    <div class="container mx-auto min-h-screen relative">
       <AppHeader />
       <slot />
       <AppFooter />
