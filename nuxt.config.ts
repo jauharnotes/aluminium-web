@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
+  plugins: [{ src: "~/plugins/aos.js", mode: "client" }],
+  css: ["~/assets/css/main.css", "animate.css", "aos/dist/aos.css"],
 
   postcss: {
     plugins: {
