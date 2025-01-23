@@ -66,7 +66,7 @@
       </div>
     </div>
     <div
-      class="md:absolute md:-right-9 md:top-12 flex flex-row md:items-end max-w-4xl"
+      class="md:absolute md:-right-96 md:-top-60 flex flex-row md:items-end max-w-7xl"
     >
       <img src="~/assets/images/home.png" alt="home" />
     </div>
