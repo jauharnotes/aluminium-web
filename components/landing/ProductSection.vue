@@ -1,5 +1,8 @@
 <template>
-  <div class="mt-20 md:mt-32 flex flex-col items-center space-y-10">
+  <div
+    id="product"
+    class="mt-20 md:mt-32 flex flex-col items-center space-y-10"
+  >
     <div
       class="md:max-w-4xl flex flex-col items-center space-y-4 mb-10"
       data-aos="fade-down"
@@ -23,7 +26,7 @@
     >
       <div
         v-if="item.id % 2 === 1"
-        class="flex flex-row justify-between space-x-6"
+        class="flex flex-col md:flex-row md:justify-between mb-14 md:mb-0 space-x-6 space-y-8 md:space-y-0"
       >
         <div class="flex-1">
           <h2 class="font-bold text-color-white">{{ item.heading }}</h2>
@@ -41,7 +44,10 @@
         </div>
       </div>
 
-      <div v-else class="flex flex-row justify-between space-x-6">
+      <div
+        v-else
+        class="flex flex-col-reverse md:flex-row justify-between mb-14 md:mb-0 space-x-6 pace-y-8 md:space-y-0"
+      >
         <div class="flex-1">
           <img :src="item.image" alt="product" />
         </div>
@@ -51,7 +57,9 @@
             <h3 class="font-semibold text-color-white">{{ item.title }}</h3>
             <p class="text-color-white">{{ item.description }}</p>
           </div>
-          <button class="bg-btn-color px-5 py-1 rounded-md space-x-2">
+          <button
+            class="bg-btn-color px-5 py-1 rounded-md space-x-2 mb-20 md:mb-0"
+          >
             <span class="text-color-black">Start from</span>
             <span class="text-color-black font-semibold">{{ item.price }}</span>
           </button>
@@ -99,7 +107,7 @@ const dataProducts = [
     description:
       "Pintu aluminium tidak akan berkarat atau berkarat, sehingga cocok untuk dipasang di area yang sering basah seperti kamar mandi dan dapur. Pintu aluminium dapat bertahan dalam berbagai kondisi cuaca dan penggunaan. Pintu aluminium memiliki tampilan minimalis dan modern yang dapat melengkapi berbagai konsep desain interior dan arsitektur rumah. Ramah lingkungan tidak memancarkan toksin atau zat berbaha-ya yang merugikan lingkungan. Mudah dirawat tidak memerlukan perawatan yang sering, berbeda dengan pintu baja atau kayu yang membutuhkan pengecatan atau pemolesan secara teratur.",
     price: "Rp 2.500.000",
-    image: "~assets/images/asset-1.png",
+    image: "https://i.ibb.co.com/Jqjrm0v/Asset-3.png",
   },
   {
     id: 4,
@@ -108,7 +116,7 @@ const dataProducts = [
     description:
       "endela aluminium adalah jenis jendela yang menggunakan material aluminium sebagai bingkainya. Aluminium adalah logam ringan namun kuat, tahan karat, dan mudah dibentuk menjadi berbagai desain. Karena kelebihan-kelebihan inilah, jendela aluminium menjadi pilihan populer untuk berbagai jenis bangunan, baik rumah tinggal, perkantoran, maupun bangunan komersial lainnya. Aluminium memiliki bobot yang ringan sehingga mudah diangkut dan dipasang. Meskipun ringan, aluminium memiliki kekuatan yang baik sehingga mampu menahan beban angin dan cuaca ekstrem.",
     price: "Rp 7500.000",
-    image: "~assets/images/asset-1.png",
+    image: "https://i.ibb.co.com/WPT4F8c/Asset-1.png",
   },
   {
     id: 5,
@@ -162,7 +170,7 @@ const dataProducts = [
     description:
       "sebuah display case atau lemari pajangan yang terbuat dari bahan aluminium. Aluminium dipilih sebagai bahan utama karena memiliki beberapa keunggulan, seperti ringan, kuat, tahan karat, dan mudah dibentuk sesuai dengan desain yang diinginkan. Etalase ini umumnya digunakan untuk memajang berbagai macam produk, baik di toko, butik, maupun showroom. Etalase aluminium dapat dibuat dengan berbagai desain, mulai dari model minimalis hingga klasik. Anda dapat memilih warna dan model yang sesuai dengan gaya toko Anda. Penggunaan kaca pada etalase aluminium memungkinkan produk yang dipajang terlihat jelas dari berbagai sudut.",
     price: "Rp 1.500.000",
-    image: "~assets/images/asset-1.png",
+    image: "https://i.ibb.co.com/xgvX2KB/Asset-2.png",
   },
   {
     id: 11,

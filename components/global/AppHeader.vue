@@ -1,5 +1,7 @@
 <template>
-  <nav class="h-16 flex flex-row justify-between items-center px-4 md:px-0">
+  <nav
+    class="h-16 flex flex-row justify-between items-center px-4 md:px-0 z-50"
+  >
     <div>
       <img src="~/assets/images/aluminium-logo.svg" alt="logo" />
     </div>
@@ -18,14 +20,39 @@
         :class="{ hidden: !isMenuOpen, flex: isMenuOpen }"
         class="flex-col md:flex md:flex-row items-center justify-center border-b border-b-[#0c1120] pb-6 md:pb-0 md:border-none space-y-4 md:space-y-0 md:space-x-8 absolute md:static top-16 left-0 w-full md:w-auto bg-bg-color md:bg-transparent"
       >
-        <li class="text-color-white font-semibold cursor-pointer">HOME</li>
-        <li class="text-color-white font-semibold cursor-pointer">ABOUT</li>
-        <li class="text-color-white font-semibold cursor-pointer">
+        <li
+          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+        >
+          <NuxtLink to="/"> HOME </NuxtLink>
+        </li>
+        <li
+          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+          @click="scrollToSection('about')"
+        >
+          ABOUT
+        </li>
+        <li
+          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+        >
           PORTOFOLIO
         </li>
-        <li class="text-color-white font-semibold cursor-pointer">SERVICE</li>
-        <li class="text-color-white font-semibold cursor-pointer">PRODUCT</li>
-        <li class="text-color-white font-semibold cursor-pointer">CONTACT</li>
+        <li
+          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+          @click="scrollToSection('service')"
+        >
+          SERVICE
+        </li>
+        <li
+          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+          @click="scrollToSection('product')"
+        >
+          PRODUCT
+        </li>
+        <li
+          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+        >
+          <NuxtLink to="/contact-us"> CONTACT </NuxtLink>
+        </li>
       </ul>
     </transition>
 
@@ -34,10 +61,16 @@
       <a href="">
         <Icon name="mage:facebook-circle" class="w-7 h-7 text-color-white" />
       </a>
-      <a href="">
+      <a
+        href="https://www.tiktok.com/@r2aluminium88?_t=ZS-8tFlgWb4875&_r=1"
+        target="_blank"
+      >
         <Icon name="mage:tiktok-circle" class="w-7 h-7 text-color-white" />
       </a>
-      <a href="">
+      <a
+        href="https://www.instagram.com/r2_aluminium88?igsh=N250ZndydW41d3Vw"
+        target="_blank"
+      >
         <Icon name="mage:instagram-circle" class="w-7 h-7 text-color-white" />
       </a>
     </div>
@@ -45,7 +78,21 @@
 </template>
 
 <script setup lang="ts">
+import { useSrolledStore } from "~/stores/scrolled-store";
 import { ref } from "vue";
+
+const router = useRouter();
+const route = useRoute();
+
+const scrollToSection = (val: string) => {
+  const store = useSrolledStore();
+  if (route.path === "/") {
+    store.scrollToElement(val);
+  } else {
+    router.push("/");
+    setTimeout(() => store.scrollToElement(val), 300);
+  }
+};
 
 const isMenuOpen = ref(false);
 </script>
