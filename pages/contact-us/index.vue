@@ -62,7 +62,7 @@
             </div>
             <h2 class="text-lg font-semibold text-color-white my-3">Mail</h2>
             <p class="text-sm text-color-white truncate">
-              procurement@gwiu.co.id
+              r2aluminium011124@gmail.com
             </p>
           </div>
         </div>
@@ -161,19 +161,21 @@
 <script setup>
 import SuccessAnimation from "~/animations/SuccessAnimation.vue";
 import Modal from "~/components/global/Modal.vue";
+import emailjs from "@emailjs/browser";
 
 const showModal = ref(false);
 const form = ref(null);
+const loading = ref(false);
 
 const sendEmail = () => {
   loading.value = true;
 
   emailjs
     .sendForm(
-      "service_8ikcb4f",
-      "template_6cm5gj3",
+      "service_uqw1cym",
+      "template_vnp3h76",
       form.value,
-      "user_YMUJPOLeeQAnXfQuKg7U9"
+      "jXxibHrDlSvq5d3W4"
     )
     .then(
       (result) => {
