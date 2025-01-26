@@ -26,7 +26,7 @@
     >
       <div
         v-if="item.id % 2 === 1"
-        class="flex flex-col md:flex-row md:justify-between mb-14 md:mb-0 space-x-6 space-y-8 md:space-y-0"
+        class="flex flex-col-reverse md:flex-row md:justify-between mb-14 md:mb-0 space-x-6 space-y-8 md:space-y-0"
       >
         <div class="flex-1">
           <h2 class="font-bold text-color-white">{{ item.heading }}</h2>
@@ -39,16 +39,16 @@
             <span class="text-color-black font-semibold">{{ item.price }}</span>
           </button>
         </div>
-        <div class="flex-1">
+        <div class="flex-1 mb-4 md:mb-0">
           <img :src="item.image" alt="product" />
         </div>
       </div>
 
       <div
         v-else
-        class="flex flex-col-reverse md:flex-row justify-between mb-14 md:mb-0 space-x-6 pace-y-8 md:space-y-0"
+        class="flex flex-col md:flex-row justify-between mb-14 md:mb-0 space-x-6 pace-y-8 md:space-y-0"
       >
-        <div class="flex-1">
+        <div class="flex-1 mb-4 md:mb-0">
           <img :src="item.image" alt="product" />
         </div>
         <div class="flex-1">

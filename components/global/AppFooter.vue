@@ -12,10 +12,29 @@
         <ul
           class="flex flex-col md:flex-row md:justify-center space-y-2 md:space-y-0 md:space-x-6 text-center"
         >
-          <li class="text-color-white cursor-pointer">Service</li>
-          <li class="text-color-white cursor-pointer">Portofolio</li>
-          <li class="text-color-white cursor-pointer">Product</li>
-          <li class="text-color-white cursor-pointer">Contact</li>
+          <li
+            class="text-color-white cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+            @click="scrollToSection('service')"
+          >
+            Service
+          </li>
+          <li
+            class="text-color-white cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+            @click="scrollToSection('portofolio')"
+          >
+            Portofolio
+          </li>
+          <li
+            class="text-color-white cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+            @click="scrollToSection('product')"
+          >
+            Product
+          </li>
+          <li
+            class="text-color-white cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+          >
+            <NuxtLink to="/contact-us"> Contact </NuxtLink>
+          </li>
         </ul>
 
         <div
@@ -25,12 +44,19 @@
             <Icon
               name="mage:facebook-circle"
               class="w-7 h-7 text-color-white"
+              target="_blank"
             />
           </a>
-          <a href="">
+          <a
+            href="https://www.tiktok.com/@r2aluminium88?_t=ZS-8tFlgWb4875&_r=1"
+            target="_blank"
+          >
             <Icon name="mage:tiktok-circle" class="w-7 h-7 text-color-white" />
           </a>
-          <a href="">
+          <a
+            href="https://www.instagram.com/r2_aluminium88?igsh=N250ZndydW41d3Vw"
+            target="_blank"
+          >
             <Icon
               name="mage:instagram-circle"
               class="w-7 h-7 text-color-white"
@@ -46,7 +72,23 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useSrolledStore } from "~/stores/scrolled-store";
+import { ref } from "vue";
+
+const router = useRouter();
+const route = useRoute();
+
+const scrollToSection = (val: string) => {
+  const store = useSrolledStore();
+  if (route.path === "/") {
+    store.scrollToElement(val);
+  } else {
+    router.push("/");
+    setTimeout(() => store.scrollToElement(val), 300);
+  }
+};
+</script>
 
 <style scoped>
 .card {
