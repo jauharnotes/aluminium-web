@@ -1,18 +1,11 @@
 <template>
   <div class="w-full h-full">
     <div class="mb-4 md:mb-5">
-      <div
-        id="map"
-        data-lng="-6.263784"
-        data-lat="106.831564"
-        data-zom="12"
-        class="w-full h-[420px]"
-      >
-        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.162684793099!2d106.8627564!3d-6.372987599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed0d94a9b895%3A0x62458b0a1c79d5ed!2sR2%20Aluminium!5e0!3m2!1sen!2sid!4v1737801798923!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+      <div class="w-full h-96">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.162684793099!2d106.8627564!3d-6.372987599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed0d94a9b895%3A0x62458b0a1c79d5ed!2sR2%20Aluminium!5e0!3m2!1sen!2sid!4v1737801798923!5m2!1sen!2sid"
           width="100%"
-          height="420"
+          height="100%"
           class="border-0"
           allowfullscreen="true"
           loading="lazy"
@@ -21,14 +14,14 @@
       </div>
     </div>
 
-    <div class="mt-20">
-      <div class="flex flex-wrap justify-around">
+    <div class="mt-20 flex flex-col justify-center">
+      <div class="flex flex-wrap justify-center space-x-9">
         <div
-          class="text-center px-4 w-40 my-4 h-40 fadeInDown"
+          class="text-center px-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 my-4 h-40 fadeInDown"
           data-wow-delay=".8s"
         >
           <div
-            class="border-2 border-color-white w-80 h-40 rounded-lg px-2 flex flex-col items-center"
+            class="border-2 border-color-white w-full h-40 rounded-lg px-2 flex flex-col items-center"
           >
             <div
               class="bg-bg-color -mt-14 w-24 h-24 flex flex-row justify-center items-center"
@@ -42,7 +35,7 @@
               Address information
             </h2>
             <p class="text-sm text-color-white truncate text-wrap">
-              l. Raya Bogor KM 31 No. 10, RT.04/RW 5, Cisalak Ps, Kec.
+              Jl. Raya Bogor KM 31 No. 10, RT.04/RW 5, Cisalak Ps, Kec.
               Cimanggis, Kota, Kota Depok, Jawa Barat 16452
             </p>
           </div>

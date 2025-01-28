@@ -26,7 +26,7 @@
     >
       <div
         v-if="item.id % 2 === 1"
-        class="flex flex-col-reverse md:flex-row md:justify-between mb-14 md:mb-0 space-x-6 space-y-8 md:space-y-0"
+        class="flex flex-col-reverse md:flex-row md:justify-between mb-14 md:mb-0 space-x-0 md:space-x-6 space-y-8 md:space-y-0"
       >
         <div class="flex-1">
           <h2 class="font-bold text-color-white">{{ item.heading }}</h2>
@@ -40,16 +40,16 @@
           </button>
         </div>
         <div class="flex-1 mb-4 md:mb-0">
-          <img :src="item.image" alt="product" />
+          <img :src="item.image" alt="product" class="w-full h-auto" />
         </div>
       </div>
 
       <div
         v-else
-        class="flex flex-col md:flex-row justify-between mb-14 md:mb-0 space-x-6 pace-y-8 md:space-y-0"
+        class="flex flex-col md:flex-row md:justify-between mb-14 md:mb-0 space-x-0 md:space-x-6 space-y-8 md:space-y-0"
       >
         <div class="flex-1 mb-4 md:mb-0">
-          <img :src="item.image" alt="product" />
+          <img :src="item.image" alt="product" class="w-full h-auto" />
         </div>
         <div class="flex-1">
           <h2 class="font-bold text-color-white">{{ item.heading }}</h2>
@@ -57,9 +57,7 @@
             <h3 class="font-semibold text-color-white">{{ item.title }}</h3>
             <p class="text-color-white">{{ item.description }}</p>
           </div>
-          <button
-            class="bg-btn-color px-5 py-1 rounded-md space-x-2 mb-20 md:mb-0"
-          >
+          <button class="bg-btn-color px-5 py-1 rounded-md space-x-2">
             <span class="text-color-black">Start from</span>
             <span class="text-color-black font-semibold">{{ item.price }}</span>
           </button>
@@ -70,6 +68,7 @@
 </template>
 
 <script setup>
+import { onMounted } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -194,4 +193,6 @@ const dataProducts = [
 const products = ref(dataProducts);
 </script>
 
-<style scoped></style>
+<style scoped>
+/* Tambahkan gaya khusus di sini jika diperlukan */
+</style>

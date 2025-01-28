@@ -2,9 +2,9 @@
   <nav
     class="h-16 flex flex-row justify-between items-center px-4 md:px-0 z-50"
   >
-    <div>
+    <NuxtLink to="/">
       <img src="~/assets/images/aluminium-logo.svg" alt="logo" />
-    </div>
+    </NuxtLink>
 
     <!-- Hamburger menu button -->
     <button
@@ -49,9 +49,10 @@
           PRODUCT
         </li>
         <li
+          @click="scrollToSection('contact-us')"
           class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
         >
-          <NuxtLink to="/contact-us"> CONTACT </NuxtLink>
+          CONTACT
         </li>
       </ul>
     </transition>
@@ -85,10 +86,18 @@ const router = useRouter();
 const route = useRoute();
 
 const scrollToSection = (val: string) => {
+  if (val === "contact-us") {
+    isMenuOpen.value = false;
+    router.push("/contact-us");
+    return;
+  }
+
   const store = useSrolledStore();
   if (route.path === "/") {
+    isMenuOpen.value = false;
     store.scrollToElement(val);
   } else {
+    isMenuOpen.value = false;
     router.push("/");
     setTimeout(() => store.scrollToElement(val), 300);
   }
