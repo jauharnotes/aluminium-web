@@ -1,8 +1,11 @@
 <template>
-  <HeroSection />
-  <ServiceSection />
-  <ProductSection />
-  <OurClient />
+  <div>
+    <HeroSection />
+    <ServiceSection />
+    <ProductSection />
+    <OurClient />
+    <FloatingButton />
+  </div>
 </template>
 
 <script setup lang="ts">
