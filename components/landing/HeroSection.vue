@@ -19,13 +19,17 @@
 
         <button
           class="bg-btn-color px-4 py-1 rounded-full font-semibold text-color-black"
+          @click="navigateTo('/contact-us')"
         >
           PESAN SEKARANG
         </button>
       </div>
 
       <div class="space-y-4 mt-9">
-        <div class="flex flex-row items-center space-x-4">
+        <div
+          class="flex flex-row items-center space-x-4 cursor-pointer"
+          @click="scrollToSection('portofolio')"
+        >
           <span
             class="w-7 h-7 rounded-full bg-btn-color flex flex-row items-center justify-center"
           >
@@ -33,7 +37,10 @@
           </span>
           <span class="text-color-white font-semibold">PORTOFOLIO</span>
         </div>
-        <div class="flex flex-row items-center space-x-4">
+        <div
+          class="flex flex-row items-center space-x-4 cursor-pointer"
+          @click="scrollToSection('service')"
+        >
           <span
             class="w-7 h-7 rounded-full bg-btn-color flex flex-row items-center justify-center"
           >
@@ -44,7 +51,10 @@
           </span>
           <span class="text-color-white font-semibold">SERVICE</span>
         </div>
-        <div class="flex flex-row items-center space-x-4">
+        <div
+          class="flex flex-row items-center space-x-4 cursor-pointer"
+          @click="scrollToSection('product')"
+        >
           <span
             class="w-7 h-7 rounded-full bg-btn-color flex flex-row items-center justify-center"
           >
@@ -55,7 +65,10 @@
           </span>
           <span class="text-color-white font-semibold">PRODUCT</span>
         </div>
-        <div class="flex flex-row items-center space-x-4">
+        <div
+          class="flex flex-row items-center space-x-4 cursor-pointer"
+          @click="scrollToSection('contact-us')"
+        >
           <span
             class="w-7 h-7 rounded-full bg-btn-color flex flex-row items-center justify-center"
           >
@@ -86,6 +99,26 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+import { useSrolledStore } from "~/stores/scrolled-store";
+
+const router = useRouter();
+const route = useRoute();
+
+const scrollToSection = (val: string) => {
+  if (val === "contact-us") {
+    router.push("/contact-us");
+    return;
+  }
+
+  const store = useSrolledStore();
+  if (route.path === "/") {
+    store.scrollToElement(val);
+  } else {
+    router.push("/");
+    setTimeout(() => store.scrollToElement(val), 300);
+  }
+};
+</script>
 
 <style lang="scss" scoped></style>
