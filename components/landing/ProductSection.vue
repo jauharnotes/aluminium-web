@@ -115,7 +115,7 @@ const dataProducts = [
     description:
       "endela aluminium adalah jenis jendela yang menggunakan material aluminium sebagai bingkainya. Aluminium adalah logam ringan namun kuat, tahan karat, dan mudah dibentuk menjadi berbagai desain. Karena kelebihan-kelebihan inilah, jendela aluminium menjadi pilihan populer untuk berbagai jenis bangunan, baik rumah tinggal, perkantoran, maupun bangunan komersial lainnya. Aluminium memiliki bobot yang ringan sehingga mudah diangkut dan dipasang. Meskipun ringan, aluminium memiliki kekuatan yang baik sehingga mampu menahan beban angin dan cuaca ekstrem.",
     price: "Rp 7500.000",
-    image: "https://i.ibb.co.com/WPT4F8c/Asset-1.png",
+    image: "https://i.ibb.co.com/xgvX2KB/Asset-2.png",
   },
   {
     id: 5,
@@ -169,7 +169,7 @@ const dataProducts = [
     description:
       "sebuah display case atau lemari pajangan yang terbuat dari bahan aluminium. Aluminium dipilih sebagai bahan utama karena memiliki beberapa keunggulan, seperti ringan, kuat, tahan karat, dan mudah dibentuk sesuai dengan desain yang diinginkan. Etalase ini umumnya digunakan untuk memajang berbagai macam produk, baik di toko, butik, maupun showroom. Etalase aluminium dapat dibuat dengan berbagai desain, mulai dari model minimalis hingga klasik. Anda dapat memilih warna dan model yang sesuai dengan gaya toko Anda. Penggunaan kaca pada etalase aluminium memungkinkan produk yang dipajang terlihat jelas dari berbagai sudut.",
     price: "Rp 1.500.000",
-    image: "https://i.ibb.co.com/xgvX2KB/Asset-2.png",
+    image: "https://i.ibb.co.com/WPT4F8c/Asset-1.png",
   },
   {
     id: 11,
