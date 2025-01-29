@@ -177,7 +177,7 @@ const dataProducts = [
     title: "Desain variatif, kuat, dan aman",
     description:
       "Kuat dan Tahan Lama: Besi adalah material yang sangat kuat dan tahan terhadap berbagai kondisi cuaca, seperti hujan, panas, maupun angin kencang. Fleksibilitas Desain: Pagar besi dapat dibuat dengan berbagai desain yang menarik dan menyesuaikan dengan gaya bangunan. Keamanan: Pagar besi memberikan tingkat keamanan yang tinggi karena sulit untuk didobrak atau dipotong. Tahan Karat: Besi yang dilapisi dengan lapisan anti karat akan lebih tahan lama dan tidak mudah berkarat. Harga Terjangkau: Harga pagar besi relatif terjangkau dibandingkan dengan bahan pagar lainnya seperti baja stainless steel.",
-    price: "Rp 7500.000",
+    price: "Rp 750.000",
     image: "https://i.ibb.co.com/n3kpDD1/asset-17.png",
   },
   {
