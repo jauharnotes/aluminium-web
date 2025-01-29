@@ -96,7 +96,7 @@ const dataProducts = [
     title: "Kombinasi Sempurna Antara Estetika dan Keamanan",
     description:
       "Pintu frameless adalah jenis pintu kaca yang sangat minimalis dan modern. Sesuai namanya, pintu ini tidak memiliki bingkai (frame) sama sekali. Seluruh daun pintu terbuat dari kaca tebal dan kuat, biasanya kaca tempered atau laminated. Desain tanpa bingkai memberikan kesan bersih, luas, dan sangat modern. Tanpa adanya bingkai yang menghalangi, pandangan menjadi lebih luas dan tidak terhalang. Cahaya matahari dapat masuk dengan leluasa, membuat ruangan terasa lebih terang dan lapang. Permukaan kaca yang rata dan tanpa sudut-sudut membuat proses pembersihan menjadi lebih mudah.",
-    price: "Rp 1.800.000",
+    price: "Rp 1.800.000/daun",
     image: "https://i.ibb.co.com/ZXLvCSX/asset-7.png",
   },
   {
@@ -105,7 +105,7 @@ const dataProducts = [
     title: "Pilihan Model Beragam, Kuat, dan Mudah Perawatan",
     description:
       "Pintu aluminium tidak akan berkarat atau berkarat, sehingga cocok untuk dipasang di area yang sering basah seperti kamar mandi dan dapur. Pintu aluminium dapat bertahan dalam berbagai kondisi cuaca dan penggunaan. Pintu aluminium memiliki tampilan minimalis dan modern yang dapat melengkapi berbagai konsep desain interior dan arsitektur rumah. Ramah lingkungan tidak memancarkan toksin atau zat berbaha-ya yang merugikan lingkungan. Mudah dirawat tidak memerlukan perawatan yang sering, berbeda dengan pintu baja atau kayu yang membutuhkan pengecatan atau pemolesan secara teratur.",
-    price: "Rp 2.500.000",
+    price: "Rp 2.500.000/daun",
     image: "https://i.ibb.co.com/Jqjrm0v/Asset-3.png",
   },
   {
@@ -114,7 +114,7 @@ const dataProducts = [
     title: "Dilengkapi dengan berbagai fitur untuk kenyamanan dan keamanan.",
     description:
       "endela aluminium adalah jenis jendela yang menggunakan material aluminium sebagai bingkainya. Aluminium adalah logam ringan namun kuat, tahan karat, dan mudah dibentuk menjadi berbagai desain. Karena kelebihan-kelebihan inilah, jendela aluminium menjadi pilihan populer untuk berbagai jenis bangunan, baik rumah tinggal, perkantoran, maupun bangunan komersial lainnya. Aluminium memiliki bobot yang ringan sehingga mudah diangkut dan dipasang. Meskipun ringan, aluminium memiliki kekuatan yang baik sehingga mampu menahan beban angin dan cuaca ekstrem.",
-    price: "Rp 7500.000",
+    price: "Rp 750.000/daun",
     image: "https://i.ibb.co.com/xgvX2KB/Asset-2.png",
   },
   {
@@ -159,7 +159,7 @@ const dataProducts = [
     title: "Melindungi Dari Panas Matahari dan Hujan",
     description:
       "struktur atap tambahan yang menonjol dari bangunan utama. Fungsinya mirip seperti atap, namun lebih spesifik untuk melindungi area tertentu di luar ruangan dari sinar matahari, hujan, dan cuaca ekstrem lainnya. Kanopi seringkali dipasang di bagian depan rumah (teras), carport (garasi), atau area outdoor lainnya. Pelindung dari Cuaca: Melindungi area di bawahnya dari hujan, sinar matahari langsung, dan debu. Estetika: Meningkatkan tampilan eksterior bangunan, membuat rumah terlihat lebih menarik dan modern. Peningkatan Nilai Jual: Keberadaan kanopi dapat meningkatkan nilai jual properti. Memperluas Ruang: Kanopi bisa menciptakan ruang tambahan semi-out-door yang nyaman untuk bersantai atau aktivitas lainnya.",
-    price: "Rp 7500.000",
+    price: "Rp 750.000/m²",
     image: "https://i.ibb.co.com/cLZVQdz/asset-16.png",
   },
   {

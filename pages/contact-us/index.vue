@@ -14,54 +14,54 @@
       </div>
     </div>
 
-    <div class="mt-20 flex flex-col justify-center">
-      <div class="flex flex-wrap justify-center space-x-9">
+    <div class="w-full my-20 flex flex-col justify-center">
+      <div class="w-full flex flex-wrap justify-center space-x-9 mb-10">
         <div
-          class="text-center px-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 my-4 h-40 fadeInDown"
-          data-wow-delay=".8s"
+          class="w-full flex flex-col md:flex-row items-center md:justify-center gap-16"
         >
-          <div
-            class="border-2 border-color-white w-full h-40 rounded-lg px-2 flex flex-col items-center"
-          >
+          <div class="w-80 h-40 flex flex-col items-center justify-center">
             <div
-              class="bg-bg-color -mt-14 w-24 h-24 flex flex-row justify-center items-center"
+              class="border-2 border-color-white w-full h-40 rounded-lg px-2 flex flex-col items-center"
             >
-              <Icon
-                name="tdesign:location-filled"
-                class="w-20 h-20 text-color-white"
-              />
+              <div
+                class="bg-bg-color -mt-14 w-24 h-24 flex flex-row justify-center items-center"
+              >
+                <Icon
+                  name="tdesign:location-filled"
+                  class="w-20 h-20 text-color-white"
+                />
+              </div>
+              <h2 class="text-lg font-semibold text-color-white my-3">
+                Address information
+              </h2>
+              <p class="text-sm text-color-white truncate text-wrap">
+                Jl. Raya Bogor KM 31 No. 10, RT.04/RW 5, Cisalak Ps, Kec.
+                Cimanggis, Kota, Kota Depok, Jawa Barat 16452
+              </p>
             </div>
-            <h2 class="text-lg font-semibold text-color-white my-3">
-              Address information
-            </h2>
-            <p class="text-sm text-color-white truncate text-wrap">
-              Jl. Raya Bogor KM 31 No. 10, RT.04/RW 5, Cisalak Ps, Kec.
-              Cimanggis, Kota, Kota Depok, Jawa Barat 16452
-            </p>
           </div>
-        </div>
-
-        <div
-          class="text-center px-4 w-40 my-4 h-40 fadeInDown"
-          data-wow-delay=".8s"
-        >
-          <div
-            class="border-2 border-color-white w-80 h-40 rounded-lg px-2 flex flex-col items-center"
-          >
+          <div class="w-80 h-40 flex flex-col items-center justify-center">
             <div
-              class="bg-bg-color -mt-14 w-24 h-24 flex flex-row justify-center items-center"
+              class="border-2 border-color-white w-80 h-40 rounded-lg px-2 flex flex-col items-center"
             >
-              <Icon name="dashicons:email" class="w-20 h-20 text-color-white" />
+              <div
+                class="bg-bg-color -mt-14 w-24 h-24 flex flex-row justify-center items-center"
+              >
+                <Icon
+                  name="dashicons:email"
+                  class="w-20 h-20 text-color-white"
+                />
+              </div>
+              <h2 class="text-lg font-semibold text-color-white my-3">Mail</h2>
+              <p class="text-sm text-color-white truncate">
+                r2aluminium011124@gmail.com
+              </p>
             </div>
-            <h2 class="text-lg font-semibold text-color-white my-3">Mail</h2>
-            <p class="text-sm text-color-white truncate">
-              r2aluminium011124@gmail.com
-            </p>
           </div>
         </div>
       </div>
 
-      <div class="flex flex-col items-center mt-0 mb-4 md:my-5">
+      <div class="flex flex-col items-center mt-10 mb-4 md:my-5">
         <h3 class="text-2xl font-bold text-color-white mb-4 text-center">
           Contact Us
         </h3>

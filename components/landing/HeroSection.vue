@@ -81,18 +81,14 @@
     <div
       class="md:absolute md:-right-96 md:-top-60 flex flex-row md:items-end max-w-7xl"
     >
-      <img
-        src="~/assets/images/home-old.png"
-        alt="home"
-        class="hidden md:flex"
-      />
+      <img src="~/assets/images/home-2.png" alt="home" class="hidden md:flex" />
       <div
         class="w-[400px] h-[350px] relative overflow-hidden flex flex-row justify-center items-center md:hidden"
       >
         <img
-          src="~/assets/images/home.png"
+          src="~/assets/images/home-2.png"
           alt="home"
-          class="absolute w-[680px] h-[680px] object-cover"
+          class="absolute w-[680px] h-[680px] object-contain"
         />
       </div>
     </div>
