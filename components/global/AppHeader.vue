@@ -27,17 +27,6 @@
         </li>
         <li
           class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
-          @click="scrollToSection('about')"
-        >
-          ABOUT
-        </li>
-        <li
-          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
-        >
-          PORTOFOLIO
-        </li>
-        <li
-          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
           @click="scrollToSection('service')"
         >
           SERVICE
@@ -47,6 +36,12 @@
           @click="scrollToSection('product')"
         >
           PRODUCT
+        </li>
+        <li
+          class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
+          @click="scrollToSection('our-client')"
+        >
+          OUR CLIENT
         </li>
         <li
           @click="scrollToSection('contact-us')"

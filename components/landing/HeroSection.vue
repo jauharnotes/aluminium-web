@@ -17,12 +17,15 @@
           produk-produk berkualitas dan layanan yang memuaskan.
         </p>
 
-        <button
-          class="bg-btn-color px-4 py-1 rounded-full font-semibold text-color-black"
-          @click="navigateTo('/contact-us')"
-        >
-          PESAN SEKARANG
-        </button>
+        <div>
+          <a
+            class="bg-btn-color px-4 py-1 rounded-full font-semibold text-color-black"
+            target="_blank"
+            href="https://wa.me/+62881011126637?text=Hello,%20R2%20Aluminium"
+          >
+            PESAN SEKARANG
+          </a>
+        </div>
       </div>
 
       <div class="space-y-4 mt-9">

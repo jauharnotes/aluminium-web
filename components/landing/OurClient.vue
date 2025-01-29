@@ -1,5 +1,8 @@
 <template>
-  <div class="mt-10 md:mt-60 flex flex-col items-center space-y-10" id="client">
+  <div
+    id="our-client"
+    class="mt-10 md:mt-60 flex flex-col items-center space-y-10"
+  >
     <div
       class="md:max-w-4xl flex flex-col items-center space-y-4"
       data-aos="fade-up"
