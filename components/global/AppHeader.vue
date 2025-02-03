@@ -35,7 +35,7 @@
           class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
           @click="scrollToSection('product')"
         >
-          PRODUCT
+          PRODUCTS
         </li>
         <li
           class="text-color-white font-semibold cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
@@ -54,7 +54,10 @@
 
     <!-- social media links -->
     <div class="hidden md:flex flex-row items-center justify-center space-x-4">
-      <a href="">
+      <a
+        href="https://web.facebook.com/profile.php?id=61568342722574"
+        target="_blank"
+      >
         <Icon name="mage:facebook-circle" class="w-7 h-7 text-color-white" />
       </a>
       <a

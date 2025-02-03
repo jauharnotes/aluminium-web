@@ -28,7 +28,7 @@
             class="text-color-white cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
             @click="scrollToSection('product')"
           >
-            Product
+            Products
           </li>
           <li
             class="text-color-white cursor-pointer hover:border-b-2 hover:border-yellow-500 transition"
@@ -40,7 +40,10 @@
         <div
           class="flex flex-row items-center justify-center space-x-4 mt-4 md:mt-0"
         >
-          <a href="">
+          <a
+            href="https://web.facebook.com/profile.php?id=61568342722574"
+            target="_blank"
+          >
             <Icon
               name="mage:facebook-circle"
               class="w-7 h-7 text-color-white"

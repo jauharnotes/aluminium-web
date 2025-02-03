@@ -34,7 +34,9 @@
               <h2 class="text-lg font-semibold text-color-white my-3">
                 Address information
               </h2>
-              <p class="text-sm text-color-white truncate text-wrap">
+              <p
+                class="text-sm text-color-white truncate text-wrap text-center"
+              >
                 Jl. Raya Bogor KM 31 No. 10, RT.04/RW 5, Cisalak Ps, Kec.
                 Cimanggis, Kota, Kota Depok, Jawa Barat 16452
               </p>

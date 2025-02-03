@@ -31,17 +31,6 @@
       <div class="space-y-4 mt-9">
         <div
           class="flex flex-row items-center space-x-4 cursor-pointer"
-          @click="scrollToSection('portofolio')"
-        >
-          <span
-            class="w-7 h-7 rounded-full bg-btn-color flex flex-row items-center justify-center"
-          >
-            <Icon name="zondicons:portfolio" class="h-4 w-4 text-color-black" />
-          </span>
-          <span class="text-color-white font-semibold">PORTOFOLIO</span>
-        </div>
-        <div
-          class="flex flex-row items-center space-x-4 cursor-pointer"
           @click="scrollToSection('service')"
         >
           <span
@@ -66,7 +55,18 @@
               class="h-4 w-4 text-color-black"
             />
           </span>
-          <span class="text-color-white font-semibold">PRODUCT</span>
+          <span class="text-color-white font-semibold">PRODUCTS</span>
+        </div>
+        <div
+          class="flex flex-row items-center space-x-4 cursor-pointer"
+          @click="scrollToSection('our-client')"
+        >
+          <span
+            class="w-7 h-7 rounded-full bg-btn-color flex flex-row items-center justify-center"
+          >
+            <Icon name="zondicons:portfolio" class="h-4 w-4 text-color-black" />
+          </span>
+          <span class="text-color-white font-semibold">OUR CLIENT</span>
         </div>
         <div
           class="flex flex-row items-center space-x-4 cursor-pointer"

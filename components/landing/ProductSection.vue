@@ -96,7 +96,7 @@ const dataProducts = [
     title: "Kombinasi Sempurna Antara Estetika dan Keamanan",
     description:
       "Pintu frameless adalah jenis pintu kaca yang sangat minimalis dan modern. Sesuai namanya, pintu ini tidak memiliki bingkai (frame) sama sekali. Seluruh daun pintu terbuat dari kaca tebal dan kuat, biasanya kaca tempered atau laminated. Desain tanpa bingkai memberikan kesan bersih, luas, dan sangat modern. Tanpa adanya bingkai yang menghalangi, pandangan menjadi lebih luas dan tidak terhalang. Cahaya matahari dapat masuk dengan leluasa, membuat ruangan terasa lebih terang dan lapang. Permukaan kaca yang rata dan tanpa sudut-sudut membuat proses pembersihan menjadi lebih mudah.",
-    price: "Rp 1.800.000/daun",
+    price: "Rp 1.800.000/unit",
     image: "https://i.ibb.co.com/ZXLvCSX/asset-7.png",
   },
   {
@@ -105,7 +105,7 @@ const dataProducts = [
     title: "Pilihan Model Beragam, Kuat, dan Mudah Perawatan",
     description:
       "Pintu aluminium tidak akan berkarat atau berkarat, sehingga cocok untuk dipasang di area yang sering basah seperti kamar mandi dan dapur. Pintu aluminium dapat bertahan dalam berbagai kondisi cuaca dan penggunaan. Pintu aluminium memiliki tampilan minimalis dan modern yang dapat melengkapi berbagai konsep desain interior dan arsitektur rumah. Ramah lingkungan tidak memancarkan toksin atau zat berbaha-ya yang merugikan lingkungan. Mudah dirawat tidak memerlukan perawatan yang sering, berbeda dengan pintu baja atau kayu yang membutuhkan pengecatan atau pemolesan secara teratur.",
-    price: "Rp 2.500.000/daun",
+    price: "Rp 2.500.000/unit",
     image: "https://i.ibb.co.com/Jqjrm0v/Asset-3.png",
   },
   {
@@ -123,7 +123,7 @@ const dataProducts = [
     title: "Elegan dan Memberikan Kesan Luas Pada Ruangan.",
     description:
       "Pintu kaca memberikan kesan modern dan elegan pada rungan. memungkinkan cahaya matahari masuk ke dalam ruangan sehingga ruangan terasa lebih terang dan lapang. Visibilitas Tinggi sehingga anda dapat melihat dengan jelas apa yang ada di balik pintu kaca. Perawatan Mudah sehingga perawatannya tidak merepotkan. Kaca tempered yang digunakan pada pintu kaca memiliki kekuatan yang tinggi sehingga lebih aman.",
-    price: "Rp 1.800.000",
+    price: "Rp 1.800.000/unit",
     image: "https://i.ibb.co.com/pLKkh6R/asset-6.png",
   },
   {
@@ -132,7 +132,7 @@ const dataProducts = [
     title: "Tahan terhadap air dan rayap, serta mudah dibersihkan",
     description:
       "jenis lemari yang menggunakan material aluminium sebagai rangka dan panel utamanya. Aluminium adalah logam ringan namun kuat, tahan karat, dan mudah dibentuk menjadi berbagai desain. Karena kelebihan-kelebihan inilah, lemari aluminium menjadi pilihan populer untuk berbagai keperluan, baik di rumah, perkantoran, maupun industri. memiliki bobot yang ringan sehingga mudah dipindah-kan dan dipasang. Meskipun ringan, aluminium memiliki kekuatan yang baik sehingga mampu menahan beban yang cukup berat.",
-    price: "Rp 2.500.000",
+    price: "Rp 2.500.000/daun",
     image: "https://i.ibb.co.com/d2RHXqx/asset-10.png",
   },
   {
@@ -141,7 +141,7 @@ const dataProducts = [
     title: "Desain Custom, Fungsional, dan Tahan Lama",
     description:
       "Kitchen set adalah perabot dapur yang terdiri dari beberapa komponen yang saling terhubung dan dirancang secara khusus untuk memudahkan aktivitas memasak dan menyiapkan makanan. Komponen-komponen ini biasanya meliputi lemari penyimpanan, meja dapur, wastafel, kompor, dan rak-rak. Penyimpanan: Lemari-lemari yang ada pada kitchen set berfungsi untuk menyimpan peralatan masak, bahan makanan, dan perlengkapan makan. Persiapan Makanan: Meja dapur berfungsi sebagai tempat untuk menyiapkan makanan, memotong bahan makanan, dan menaruh peralatan masak. Pemasakan: Kompor digunakan untuk memasak makanan. Pencucian: Wastafel digunakan untuk mencuci peralatan makan dan bahan makanan.",
-    price: "Rp 2.500.000",
+    price: "Rp 2.500.000/meter",
     image: "https://i.ibb.co.com/87Tbs7Z/asset-12.png",
   },
   {
@@ -177,7 +177,7 @@ const dataProducts = [
     title: "Desain variatif, kuat, dan aman",
     description:
       "Kuat dan Tahan Lama: Besi adalah material yang sangat kuat dan tahan terhadap berbagai kondisi cuaca, seperti hujan, panas, maupun angin kencang. Fleksibilitas Desain: Pagar besi dapat dibuat dengan berbagai desain yang menarik dan menyesuaikan dengan gaya bangunan. Keamanan: Pagar besi memberikan tingkat keamanan yang tinggi karena sulit untuk didobrak atau dipotong. Tahan Karat: Besi yang dilapisi dengan lapisan anti karat akan lebih tahan lama dan tidak mudah berkarat. Harga Terjangkau: Harga pagar besi relatif terjangkau dibandingkan dengan bahan pagar lainnya seperti baja stainless steel.",
-    price: "Rp 750.000",
+    price: "Rp 750.000/m²",
     image: "https://i.ibb.co.com/n3kpDD1/asset-17.png",
   },
   {
@@ -186,7 +186,7 @@ const dataProducts = [
     title: "Memberikan Keamanan, Kenyamanan, dan Estetika Pada Bangunan.",
     description:
       "Rolling door atau pintu gulung adalah jenis pintu yang terbuat dari beberapa panel datar atau bergelombang yang digulung keatas atau ke bawah secara vertikal menggunakan mekanisme khusus. Ketika pintu dibuka, panel-panel ini akan menggulung ke atas dan tersimpan di dalam kotak di atas ambang pintu. Sebaliknya, ketika pintu ditutup, panel-panel akan turun dan menutupi bukaan pintu. Bahan yang kuat seperti baja dapat memberikan keamanan yang tinggi untuk bangunan. bahan berkualitas baik dapat tahan terhadap berbagai kondisi cuaca seperti hujan, angin, dan sinar matahari. Mudah Dioperasikan secara manual atau otomatis menggunakan remote control.",
-    price: "Rp 1.800.000",
+    price: "Rp 1.800.000/unit",
     image: "https://i.ibb.co.com/PtPVPJN/asset-19.png",
   },
 ];
