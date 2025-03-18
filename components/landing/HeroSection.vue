@@ -9,10 +9,10 @@
         </h2>
         <p class="text-color-white">
           adalah perusahaan yang telah berpengalaman lebih dari 5 tahun dalam
-          bidang pengolahan alumunium, kaca, dan bersi. Kami berkomitmen untuk
+          bidang pengolahan alumunium, kaca, dan besi. Kami berkomitmen untuk
           menyediakan solusi terbaik bagi kebutuhan konstruksi dan interior
           Anda. Dengan keahlian dan pengalaman yang luas. Berlokasi di Jl. Raya
-          Bogor KM 31 No. 10, RT.04/RW 5, Cisalak Ps. Kec. Cimanggis, KOta
+          Bogor KM 31 No. 10, RT.04/RW 5, Cisalak Ps. Kec. Cimanggis, Kota
           Depok, Jawa Barat 16452, kami siap melayanai kebutuhan Anda dengan
           produk-produk berkualitas dan layanan yang memuaskan.
         </p>
