@@ -69,7 +69,7 @@
       </div>
       <div class="w-full h-[1px] bg-slate-400 mt-4"></div>
       <span class="text-color-white text-sm text-center">
-        Copyright @2024
+        Copyright @{{ currentYear }}
       </span>
     </div>
   </div>
@@ -81,6 +81,8 @@ import { ref } from "vue";
 
 const router = useRouter();
 const route = useRoute();
+
+const currentYear = new Date().getFullYear();
 
 const scrollToSection = (val: string) => {
   const store = useSrolledStore();
